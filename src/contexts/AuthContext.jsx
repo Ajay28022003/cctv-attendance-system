@@ -6,7 +6,7 @@ export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  // Check LocalStorage on load (did they log in previously?)
+  
   useEffect(() => {
     const savedUser = localStorage.getItem('user');
     if (savedUser) {
@@ -16,7 +16,7 @@ export function AuthProvider({ children }) {
   }, []);
 
   const login = (email, password) => {
-    // MOCK LOGIN LOGIC (Replace with backend API later)
+    
     if (email === 'ajaykannapiran2@gmail.com' && password === 'Admin@123') {
       const userData = { name: 'Admin User', email, role: 'Super Admin' };
       setUser(userData);

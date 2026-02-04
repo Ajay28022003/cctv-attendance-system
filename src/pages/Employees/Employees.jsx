@@ -3,7 +3,7 @@ import { Search, Plus, Filter, Eye, UploadCloud, X, Pencil, Users, UserCheck, Us
 import { useNavigate } from 'react-router-dom';
 import AdminPageLayout from '../../components/layouts/AdminPageLayout';
 import AddEmployeesModal from './AddEmployeesModal'; 
-import BulkUploadModal from './BUlkUploadModal';
+import BulkUploadModal from "./BulkUploadModal";
 import UpdateEmployeeModal from './UpdateEmployeeModal'; 
 import Loader from '../../components/loader/loader'; // Ensure this path matches your file structure
 import { useToast } from '../../contexts/ToastContext';
