@@ -59,7 +59,7 @@ export default function Dashboard() {
           {/* 2. The Rectangular Image */}
           <div className="cursor-pointer hover:ring-2 hover:ring-blue-500 hover:ring-offset-2 rounded-xl transition-all shrink-0 bg-white shadow-sm border border-slate-200 p-1">
             <img
-              src="/public/profile1.jpeg" // Note: Usually you drop the "/public" part for deployed assets!
+              src="/profile1.jpeg" // Note: Usually you drop the "/public" part for deployed assets!
               alt="Logo"
               /* CHANGED: Increased w-28 to w-36, and h-12 to h-14 */
               className="w-36 h-14 rounded-lg object-contain"
