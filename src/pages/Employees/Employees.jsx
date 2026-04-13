@@ -5,7 +5,7 @@ import AdminPageLayout from '../../components/layouts/AdminPageLayout';
 import AddEmployeesModal from './AddEmployeesModal'; 
 import BulkUploadModal from "./BulkUploadModal";
 import UpdateEmployeeModal from './UpdateEmployeeModal'; 
-import Loader from '../../components/loader/loader'; // Ensure this path matches your file structure
+import Loader from '../../components/loader/loader';
 import { useToast } from '../../contexts/ToastContext';
 import employeeData from "../../data/employee.json";
 
