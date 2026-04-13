@@ -146,7 +146,7 @@ export default function Reports() {
           {/* The Rectangular Image */}
           <div className="cursor-pointer hover:ring-2 hover:ring-blue-500 hover:ring-offset-2 rounded-xl transition-all shrink-0 bg-white shadow-sm border border-slate-200 p-1">
             <img
-              src="/profile.jpeg" /* Make sure this matches your file name */
+              src="/public/profile1.jpeg" /* Make sure this matches your file name */
               alt="Logo"
               className="w-36 h-14 rounded-lg object-contain"
             />
